@@ -11,7 +11,7 @@ section {
 .section-heading {
   @apply text-[38px] md:text-[56px] xl:text-[64px];
   @apply mb-2 md:mb-3;
-  @apply leading-[1.05] font-black;
+  @apply leading-[1.05] font-bold;
 }
 
 .section-text {
