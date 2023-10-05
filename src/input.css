@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+section {
+  @apply relative flex justify-center items-center flex-col max-w-full;
+  @apply py-[55px] md:py-20 xl:py-[100px];
+}
+
+/* Typography */
+.section-heading {
+  @apply text-[38px] md:text-[56px] xl:text-[64px];
+  @apply mb-2 md:mb-3;
+  @apply leading-[1.05] font-black;
+}
+
+.section-text {
+  @apply text-[18px] md:text-[24px] xl:text-[26px];
+  @apply mb-10;
+  @apply max-w-[420px] md:max-w-[550px] xl:max-w-[600px];
+  @apply leading-[1.45] relative;
+}
+
+/* Buttons */
+.button {
+  @apply px-6 py-2.5;
+  @apply cursor-pointer rounded-[32px];
+  @apply font-bold text-[18px];
+  @apply hover:scale-[1.08];
+  @apply transition duration-400 ease-in-out;
+}
+
+.button-green {
+  @apply button;
+  @apply bg-green-primary;
+  @apply text-white;
+}
+
